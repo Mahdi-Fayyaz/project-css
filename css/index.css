@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    position: relative;
+}
+.top-container{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 500px;
+    left: 0px;
+}
+.top{
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    bottom: 50px;
+    left: 300px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+}
+.navbar{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 840px;
+    left: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a{
+    float: left;
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+@media screen and (max-width:600px) {
+    .navbar a{ 
+        float: none;
+        width: 100%;
+    }
+}
+.navbar a:link {
+        background-color: rgb(184, 26, 15);
+        color: aliceblue;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+}
+.navbar a:visited{
+    background-color: rgb(248, 196, 196);
+}
+.navbar a:hover{
+        background-color: rgb(255, 0, 0);
+}
+.navbar a:active{
+    background-color: rgb(167, 42, 240);
+}
+h2{
+    position: relative;
+    left: 15px;
+    color: rgb(16, 97, 34);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    position: relative;
+    left: 15px;
+    color: #23165e;
+}
+.personal{
+    background-color: #439a97;
+    position: relative;
+    top: 0px;
+    right: 50px;
+    left: 100px;
+    line-height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.personalimg{
+    position: absolute;
+    top: 0px;
+    left: 700px;
+    bottom: 0px;
+    right: 0px;
+}
+.educational{
+    background-color: #62b6b7;
+    position: relative;
+    top: 0px;
+    right: 100px;
+    left: 10px;
+    line-height: 35px;
+    border-radius: 40px;
+}
+.educationalimg{
+    position: absolute;
+    top: 10px;
+    left: 700px;
+    bottom: 0px;
+    right: 0px;
+}
+.work{
+    position: relative;
+    top: 0px;
+    left: 100px;
+    line-height: 55px;
+    background-color: #97dece;
+    border-radius: 40px;
+}
+.workimg{
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    bottom: 0px;
+    right: 0px;
+}
+.interests{
+    position: relative;
+    top: 0px;
+    left: 10px; 
+    line-height: 50px;
+    background-color: #cbedd5;
+    border-radius: 40px;
+}
+.interestsimg{
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    bottom: 0px;
+    right: 0px;
+}
+.contact a:link {
+    background-color: rgb(1, 51, 1);
+    color: aliceblue;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+.contact  a:visited{
+    background-color: rgb(81, 164, 167);
+}
+.contact a:hover{
+    background-color: green;
+}
+.contact a:active {
+    background-color: rgb(128, 9, 0);
+}
+.contact{
+    position: relative;
+    top: 0px;
+    left: 500px;
+}
+.footer{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: #f3f2c9;
+}
